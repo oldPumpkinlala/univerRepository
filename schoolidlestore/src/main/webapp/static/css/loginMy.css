@@ -1,0 +1,195 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#9B90C2;
+    
+}
+.main{
+    /*width: 100%;*/
+    height: auto;
+    background-size: 100% 100%;
+    margin: auto;
+    margin-top: 10%;
+   
+    /*background-position: 5% 5%;*/
+    background-size: 100% 100%;
+    background-position: 50% 40%;
+}
+
+
+input{
+    width: 45%;
+    height: 3em;
+    background-color: rgba(224, 227, 232, 0.11);
+    margin-left: 23%;
+    border-radius: 5px;
+    /*margin: auto;*/
+    opacity: 1;
+    outline-style:none;
+    border: 1px solid rgba(239, 239, 239, 0.15);
+    font-size: 1em;
+    color: #bdc0b8;
+    font-family: "微软雅黑";
+    padding-left:40px;
+    margin-top: 4%;
+}
+input:focus{
+    background-color: rgba(196, 199, 204, 0.40);
+    /*border: 1px solid #7FCAF1;*/
+    box-shadow: 0px 0px 5px rgba(241, 237, 239, 0.35);
+    opacity: 1;
+}
+#submit{
+    width: 45%;
+    
+    height: 3em;
+    font-size: 1em;
+    background-color: #211E55;
+    font-weight: bolder;
+    font-family: "微软雅黑";
+    opacity: 1;
+    margin-left: 22.9%;
+}
+#submit:active{
+    background-color: #9B90C2;
+    top: 5px;
+    box-shadow: 0px 0px 5px rgba(241, 237, 239, 0.35);
+}
+.main .center{
+    width: 35%;
+    height: 28em;
+    padding: 5.5% 0% 0% 0%;
+    background-image: url(../image/center.png);
+    background-size: 170% 150%;
+    background-position: 53% 49%;
+    opacity: 1;
+    margin: auto;
+    font-size:14px;
+    color: #cccccc;
+}
+
+#user_pass{
+    display: block;
+    position: absolute;
+    width: 17%;
+    height: auto;
+    /*background-color: red;*/
+    margin-left: -2%;
+    /*margin-top: -2.3%;*/
+}
+#pwd_pass{
+    display: block;
+    position: absolute;
+    width: 14%;
+    height: auto;
+    /*background-color: red;*/
+    margin-left: -2%;
+}
+
+#surePwd_pass{
+    display: block;
+    position: absolute;
+    width: 14%;
+    height: auto;
+    /*background-color: red;*/
+    margin-left:-2%;
+}
+#surePwd{
+    background-image: url(../image/we2.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+    background-size: 20% 78%;
+}
+
+.Cone{
+    color: #adadad;
+    position: absolute;
+    margin-left: 8.3%;
+    margin-top: 2%;
+    height: 50px;
+    font-size:1.35em;}
+
+
+
+@media screen and (max-width: 360px) {
+    .main{
+        /*width: 100%;*/
+        height: auto;
+        background-size: 100% 100%;
+        margin: auto;
+        margin-top: 35%;
+    }
+    .main .center{
+        width: 80%;
+        height: 22em;
+        padding: 19% 0% 0% 0%;
+        background-image: url(../image/center.png);
+        background-size: 180% 160%;
+        background-position: 53% 56%;
+        opacity: 1;
+        /*margin: auto;*/
+        margin-top: 20%;
+        font-size:14px;
+        color: #cccccc;
+    }
+    input{
+        width: 45%;
+        height: 2em;
+        background-color: rgba(224, 227, 232, 0.11);
+        margin-left: 21.4%;
+        border-radius: 5px;
+        opacity: 1;
+        outline-style:none;
+        border: 1px solid rgba(239, 239, 239, 0.15);
+        font-size: 1em;
+        color: #bdc0b8;
+        font-family: "微软雅黑";
+        padding-left:37px;
+        margin-top:5.7%;
+    }
+    #submit{
+        width: 58%;
+        height: 2em;
+        font-size: 1em;
+        background-color: #6A4C9C;
+        font-weight: bolder;
+        font-family: "微软雅黑";
+        opacity: 1;
+        margin-left: 21.4%;
+        padding-left: -50px;
+    }
+    .Cone{
+        color: #999999;
+        position: absolute;
+        margin-left: 19%;
+        margin-top: 6.8%;
+        height: 50px;
+        font-size:1.1em;
+    }
+
+    #user_pass{
+        display: block;
+        position: absolute;
+        width: 20%;
+        height: auto;
+        margin-left: 14%;
+    }
+    #pwd_pass{
+        display: block;
+        position: absolute;
+        width: 20%;
+        height: auto;
+        margin-left: 14%;
+    }
+
+    #surePwd_pass{
+        display: block;
+        position: absolute;
+        width: 20%;
+        height: auto;
+        margin-left:14%;
+    }
+}

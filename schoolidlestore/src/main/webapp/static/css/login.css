@@ -1,0 +1,66 @@
+@charset "UTF-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:#8B81C3;
+}
+#loginform{
+	position: absolute;
+	left:320px;
+	top:100px;
+	width:50%;
+	height:60%;
+	background-color:white;
+	border:1px solid #9B90C2;
+	padding:30px 50px;
+	 border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    -ms-border-radius: 8px;
+    font-size:1.1em;
+	font-family: 'Syncopate', sans-serif;
+   
+}
+#registform{
+	position: absolute;
+	left:320px;
+	top:100px;
+	width:50%;
+	height:65%;
+	background-color:white;
+	border:1px solid #9B90C2;
+	padding:30px 50px;
+	 border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    -ms-border-radius: 8px;
+    font-size:1.1em;
+	font-family: 'Syncopate', sans-serif;
+}
+#title{
+	position:relative;
+	color:white;
+	 font-family: sans-serif;
+	 top:30px;
+	 left:500px;
+	 font-size:40px;
+	
+}
+
+input[type="submit"]{
+	height:20%;
+	color:white;
+	background-color:#211E55;
+	font-size:1.1em;
+	font-family: sans-serif;
+}
+input[type="submit"]:hover{
+	background-color:#8A6BBE;
+	color:white;
+	font-size:1.2em;
+	border: 1px solid #8A6BBE;
+}
